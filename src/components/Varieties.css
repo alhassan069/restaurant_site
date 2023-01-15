@@ -1,0 +1,233 @@
+.headerCont {
+    display: flex;
+    justify-content: center;
+}
+
+.vHeader {
+    margin-top: 0.625rem;
+    width: 10%;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    color: #2b2b2b;
+}
+
+.vHeader::after {
+    display: block;
+    clear: both;
+    content: "";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    max-width: 50%;
+    height: 0.025rem;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.00625rem 0px;
+    background: #342679;
+    border: 0.0625rem solid #000000;
+    box-shadow: 0px 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+}
+
+.varieties {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80vh;
+    font-family: "Poppins", sans-serif;
+}
+
+.cont0 {
+    width: 45%;
+    margin-left: 2.5%;
+}
+
+.cont1 {
+    display: grid;
+    grid-template-areas: "left1 left2" "left3 left4";
+    gap: 0.625rem;
+    width: 45%;
+    margin-left: 2.5%;
+}
+
+.bigdiv {
+    height: 100%;
+    border-radius: 1.5%;
+    background-image: url("./assets/grid1.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.bigdivCont {
+    align-self: flex-end;
+    width: 100%;
+    height: 35%;
+    border-radius: 0px 0px 2.1% 2.1%;
+    background-color: #342679d7;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    color: white;
+}
+
+.cardHeader1 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.cardHeader {
+    margin-top: 1%;
+    margin-bottom: 0.1%;
+    padding: 0%;
+}
+
+.cardInfo {
+    padding-bottom: 3%;
+    border-bottom: 0.0625rem solid white;
+}
+
+.cardInfo2 {
+    font-size: x-small;
+    padding-bottom: 3%;
+    border-bottom: 0.0625rem solid black;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    background-color: transparent;
+    font-family: "Poppins";
+    border-radius: 0.9375rem;
+    width: 21%;
+    height: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    cursor: pointer;
+}
+
+.btn>svg {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.btn:hover {
+    background-color: #504779;
+    color: gold;
+}
+
+.exploreBtn1 {
+    border: 0.0625rem solid white;
+    color: inherit;
+    font-size: 1rem;
+}
+
+.ratedBtn1 {
+    color: inherit;
+    font-size: 1rem;
+    align-self: flex-end;
+    border: none;
+}
+
+.exploreBtn {
+    color: inherit;
+    border: none;
+    font-size: xx-small;
+}
+
+.ratedBtn {
+    color: inherit;
+    align-self: flex-end;
+    border: none;
+    font-size: xx-small;
+    align-self: flex-end;
+    border: none !important;
+    padding-right: 5%;
+}
+
+.smalldiv {
+    /* border-radius: 8px;
+    padding: 10px; */
+    height: 100%;
+    border-radius: 1.5%;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.bigdiv {
+    height: 100%;
+    border-radius: 1.5%;
+}
+
+.smalldivCont {
+    align-self: flex-end;
+    width: 100%;
+    height: 45%;
+    border-radius: 0px 0px 2.1% 2.1%;
+    background-color: #ffffffd7;
+    padding: 5%;
+    color: #2b2b2b;
+}
+
+.smalldivCont:hover {
+    background-color: rgba(0, 0, 0, 0.509);
+    color: white;
+}
+
+.smalldivCont:hover .cardInfo2 {
+    border-bottom: 0.0625rem solid white;
+}
+
+.smalldiv1 {
+    grid-area: left1;
+    background-image: url("./assets/grid2.png");
+}
+
+.smalldiv2 {
+    grid-area: left2;
+    background-image: url("./assets/grid3.png");
+}
+
+.smalldiv3 {
+    grid-area: left3;
+    background-image: url("./assets/grid4.png");
+}
+
+.smalldiv4 {
+    grid-area: left4;
+    background-image: url("./assets/grid5.png");
+}
+
+.cuisinesCont {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95%;
+    height: 30vh;
+    margin: auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.cuisine {
+    margin: 2%;
+    width: 88%;
+    /* padding-left: 5%; */
+}
+
+.cuisineDesc {
+    font-size: x-small;
+}

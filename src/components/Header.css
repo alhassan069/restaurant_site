@@ -1,0 +1,18 @@
+.headerBox {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0.0625rem 0px 0px #0000001a;
+}
+
+.headerContent {
+    /* margin-left: 40%; */
+    display: flex;
+    align-items: center;
+}
+
+.headerContent>p {
+    margin: 0.625rem;
+    font-family: "Satisfy", cursive !important;
+    font-weight: 400;
+    font-size: 1rem;
+}
